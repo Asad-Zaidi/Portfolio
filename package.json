@@ -12,6 +12,11 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
+  "devDependencies": {
+    "install": "^0.13.0",
+    "snpm": "^0.1.1",
+    "stylelint": "^15.10.3",
+    "stylelint-order": "^6.0.3"
+  },
   "keywords": []
 }
