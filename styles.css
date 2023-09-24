@@ -1,13 +1,10 @@
-body{
-  
+.main {
   border: 2px;
   height: 1920px;
-  width: 375px;
-  
+  width: 375px;  
 }
  
 .container {
-
   background-color: white;
   border: 2px;
   height: auto;
@@ -16,11 +13,9 @@ body{
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
-
 }
 
 .logo-style {
-
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 5px;
@@ -29,11 +24,9 @@ body{
   font-size: 25px;
   color: #6070FF;
   font-weight: 800;
-
 }
 
 .menu-style {
-
   padding-right: 10px;
   padding-top: 13px;
   border: 2px;
@@ -41,11 +34,9 @@ body{
   height: 30px;
   text-align: center;
   justify-content: center;
-
 }
 
 .greeting-style {
-
   padding-top: 150px;
   border: 2px;
   width: 327px;
@@ -55,11 +46,9 @@ body{
   font-size: 40px;
   font-weight: 800;
   text-align: left;
-
 }
 
 .text1 {
-
   padding-top: 10px;
   border: 2px;
   width: 327px;
@@ -72,7 +61,6 @@ body{
 }
 
 .text2 {
-
   padding-top: 10px;
   border: 2px;
   width: 327px;
@@ -86,7 +74,6 @@ body{
 }
 
 .social-media {
-
   border: 2px;
   padding-top: 10px;
   width: 327px;
