@@ -1,9 +1,9 @@
 .body {
   border: 2px;
+  height: 835px;
+  width: 375px;
   background-image: url("https://cdn.create.vista.com/api/media/medium/22369587/stock-vector-abstract-vector-blue-background-yellow-lines?token=");
   background-repeat: round;
-  width: auto;
-  height: 835px;
 }
 
 .container {
@@ -59,7 +59,6 @@
   font-size: 16px;
   text-align: left;
   line-height: 24px;
-  font-style: italic;
 }
 
 .text2 {
