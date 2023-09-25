@@ -1,11 +1,12 @@
-.main {
+.body {
   border: 2px;
-  height: 1920px;
-  width: 375px;
+  background-image: url("https://cdn.create.vista.com/api/media/medium/22369587/stock-vector-abstract-vector-blue-background-yellow-lines?token=");
+  background-repeat:round;  
+  width: auto;
+  height: 835px;
 }
- 
+
 .container {
-  background-color: white;
   border: 1px;
   height: auto;
   width: auto;
@@ -37,7 +38,7 @@
 }
 
 .greeting-style {
-  padding-top: 150px;
+    padding-top: 150px;
   border: 2px;
   width: 327px;
   height: auto;
@@ -58,6 +59,7 @@
   font-size: 16px;
   text-align: left;
   line-height: 24px;
+  font-style: italic;
 }
 
 .text2 {
