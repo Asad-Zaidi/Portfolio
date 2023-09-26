@@ -1,9 +1,17 @@
 @import url('https://fonts.google.com/specimen/Poppins?query=poppin');
 
-.container {
+.body {
   border: 2px solid black;
   width: 375px;
+}
+
+.container {
+  border: 2px solid black;
+  width: auto;
   height: 718px;
+  padding: 12px 24px;
+  display: flex;
+  flex-direction: column;
   background-image: url("https://cdn.create.vista.com/api/media/medium/22369587/stock-vector-abstract-vector-blue-background-yellow-lines?token=");
   background-repeat: round;
 }
@@ -11,7 +19,7 @@
 .toolbar {
   border: 2px solid red;
   background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(48, 181, 255));
-  width: 351px;
+  width: auto;
   height: 48px;
   display: flex;
   flex-direction: row;
@@ -39,11 +47,9 @@
 }
 
 .greeting-style {
-  padding-top: 100px;
-  border: 2px;
-  width: 327px;
+  border: 2px solid black;
+  width: auto;
   height: auto;
-  padding-left: 24px;
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 800;
@@ -51,21 +57,20 @@
 }
 
 .text1 {
-  border: 2px;
+  border: 2px solid green;
   width: 327px;
   height: auto;
-  padding-left: 24px;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   text-align: left;
   line-height: 24px;
+  display: inline-block;
 }
 
 .text2 {
   border: 2px;
   width: 327px;
   height: auto;
-  padding-left: 24px;
   color: #7f8cff;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -74,8 +79,8 @@
 }
 
 .social-media {
+  position: relative;
   border: 2px solid;
-  width: 327px;
-  height: auto;
-  padding-left: 24px;
+  width: 170.17px;
+  height: 20px;
 }
