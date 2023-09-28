@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "foo": "^0.0.7",
+    "hint": "^7.1.10"
+  },
+  "name": "portfolio",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "install": "^0.13.0",
+    "snpm": "^0.1.1",
+    "stylelint": "^15.10.3",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-order": "^6.0.3"
+  },
+  "keywords": []
+}
