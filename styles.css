@@ -14,21 +14,19 @@
   padding: 12px 24px;
   display: flex;
   flex-direction: column;
-  background-image: url("https://cdn.create.vista.com/api/media/medium/22369587/stock-vector-abstract-vector-blue-background-yellow-lines?token=");
-  background-repeat: round;
+  background-image: url('./icons/header-shapes\ mobile@2x.svg');
 }
 
 .toolbar {
   border: 2px;
   width: auto;
-  height: 40px;
+  height: 70px;
   display: flex;
   flex-direction: row;
   padding: 12px 12px;
   font-size: 18px;
   align-items: center;
   justify-content: space-between;
-  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(46, 173, 228));
 }
 
 .logo-style {
@@ -51,7 +49,7 @@
   border: 2px;
   width: 300px;
   height: 140px;
-  padding-top: 50px;
+  padding-top: 100px;
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 700;
