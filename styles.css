@@ -1,87 +1,68 @@
-@import url('https://fonts.google.com/specimen/Poppins?query=poppin');
-
-.body {
-  border: 2px;
-  width: 375px;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-
-.container {
-  border: 2px;
-  width: auto;
-  height: 700px;
-  padding: 12px 24px;
-  display: flex;
-  flex-direction: column;
-  background-image: url('./icons/header-shapes\ mobile@2x.svg');
-}
-
-.toolbar {
-  border: 2px;
-  width: auto;
-  height: 70px;
-  display: flex;
-  flex-direction: row;
-  padding: 12px 12px;
-  font-size: 18px;
-  align-items: center;
-  justify-content: space-between;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 .logo-style {
-  border: 2px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 22px;
-  color: #6070ff;
-  font-weight: 700;
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 12px;
   padding: 10px 12px;
 }
 
+.container {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  font-size: 18px;
+  color: #6070ff;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.headline {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 24px;
+  font-size: 16px;
+  gap: 12px;
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(./icons/header-mobile.png);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
 .menu-style {
+  position: absolute;
+  top: calc(50% - 20px);
   right: 24px;
   padding: 8px;
-  border: 2px;
-  top: calc(50% - 20px);
 }
 
 .greeting-style {
-  border: 2px;
-  width: 300px;
-  height: 140px;
-  padding-top: 100px;
-  font-family: 'Poppins', sans-serif;
   font-size: 40px;
-  font-weight: 700;
-  text-align: left;
+  line-height: 52px;
+  margin-bottom: 50px;
+  width: 327px;
+  height: 150px;
 }
 
 .text1 {
-  border: 2px;
+  color: #344563;
   width: 327px;
   height: auto;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  text-align: left;
-  line-height: 24px;
-  display: inline-block;
-  position: relative;
 }
 
 .text2 {
-  border: 2px;
-  width: 327px;
-  height: auto;
-  color: #7f8cff;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  text-align: left;
+  position: relative;
   line-height: 24px;
+  font-weight: 500;
+  color: #7f8cff;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .social-media {
-  position: relative;
-  border: 2px;
   width: 170.17px;
   height: 20px;
 }
