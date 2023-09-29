@@ -2,7 +2,6 @@
 
 body {
   width: 375px;
-  border: 2px solid green;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -84,7 +83,6 @@ body {
   margin-bottom: 114px;
   display: grid;
   grid-template-columns: auto;
-  justify-content: l;
   display: flex;
 }
 
@@ -97,7 +95,7 @@ body {
 }
 
 .tonic {
-  margin: 0px;
+  margin: 1px;
   padding-top: 12px;
 }
 
@@ -105,7 +103,7 @@ body {
   font-weight: 600;
   display: inline-flex;
   font-size: 12px;
-  color:  #344563;
+  color: #344563;
 }
 
 .primary-text {
