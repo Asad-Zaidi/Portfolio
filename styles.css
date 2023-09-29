@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-.logo-style {
-  position: absolute;
-  top: calc(50% - 20px);
-  left: 12px;
-  padding: 10px 12px;
-}
-
 .container {
   position: relative;
   width: 100%;
@@ -15,6 +8,13 @@
   color: #6070ff;
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
+}
+
+.logo-style {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 12px;
+  padding: 10px 12px;
 }
 
 .headline {
