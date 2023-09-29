@@ -83,7 +83,6 @@ body {
   margin-bottom: 114px;
   display: grid;
   grid-template-columns: auto;
-  display: flex;
 }
 
 .card-items {
