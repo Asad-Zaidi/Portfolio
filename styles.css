@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+body {
+  width: 375px;
+  border: 2px solid green;
+  font-family: 'Poppins', sans-serif;
+}
+
 .logo-style {
   position: absolute;
   top: calc(50% - 20px);
@@ -9,7 +15,7 @@
 
 .container {
   position: relative;
-  width: 100%;
+  width: 375px;
   height: 48px;
   font-size: 18px;
   color: #6070ff;
@@ -19,7 +25,7 @@
 
 .headline {
   position: relative;
-  width: 100%;
+  width: 375px;
   display: flex;
   flex-direction: column;
   padding: 70px 24px;
@@ -65,4 +71,75 @@
 .social-media {
   width: 170.17px;
   height: 20px;
+}
+
+.card-works {
+  border: 1px solid #d7d7e2e7;
+  border-radius: 15px;
+  padding: 10px;
+  width: 327px;
+  height: 600px;
+  margin-top: 114px;
+  margin-left: 12px;
+  margin-bottom: 114px;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: l;
+  display: flex;
+}
+
+.card-items {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 16px;
+  padding: 16px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.tonic {
+  margin: 0px;
+  padding-top: 12px;
+}
+
+.tags {
+  font-weight: 600;
+  display: inline-flex;
+  font-size: 12px;
+  color:  #344563;
+}
+
+.primary-text {
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  display: inline-block;
+  width: 295px;
+}
+
+.tag {
+  position: relative;
+  border-radius: 8px;
+  background-color: #ebebff;
+  overflow: hidden;
+  display: inline-flex;
+  flex-direction: row;
+  padding: 5px 12px;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #6070ff;
+}
+
+.see-project {
+  position: relative;
+  border-radius: 8px;
+  display: inline-flex;
+  box-sizing: border-box;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  border: 1px solid #6070ff;
+  padding: 12px;
+  margin-top: 25px;
+  text-align: center;
+  color: #396df2;
 }
