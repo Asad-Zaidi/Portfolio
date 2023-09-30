@@ -283,3 +283,35 @@ body {
   padding: 6px;
   align-items: center;
 }
+
+.contact-body {
+  background-color: #6070ff;
+  border-radius: 80px 0% 0% 0%;
+  width: 375px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  align-items: center;
+}
+
+.contact-me {
+  border: 1px solid greenyellow;
+  margin-top: 130px;
+  font-weight: 700;
+  text-align: center;
+  height: 50px;
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 52px;
+}
+
+.form-text {
+  border: 2px solid blue;
+  width: 327px;
+  font-weight: 400;
+  color: #ebebff;
+  font-size: 20px;
+  text-align: center;
+}
