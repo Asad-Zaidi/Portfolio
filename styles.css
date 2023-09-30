@@ -225,7 +225,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  color: black;  
+  color: black;
 }
 
 .arrow {
@@ -236,7 +236,7 @@ body {
   flex-shrink: 0;
 }
 
-hover:hover {
+.hover:hover {
   color: #7308ff;
   zoom: 1.09;
 }
@@ -245,7 +245,7 @@ hover:hover {
   position: relative;
   margin-top: 12px;
   height: 55px;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
   border-radius: 12px;
   display: flex;
   padding: 6px;
@@ -270,7 +270,7 @@ hover:hover {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  color: black;  
+  color: black;
 }
 
 .language-frame1 {
