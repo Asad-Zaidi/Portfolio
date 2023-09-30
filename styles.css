@@ -288,7 +288,7 @@ body {
   background-color: #6070ff;
   border-radius: 80px 0% 0% 0%;
   width: 375px;
-  height: 650px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   margin-top: 16px;
@@ -296,7 +296,6 @@ body {
 }
 
 .contact-me {
-  border: 1px solid greenyellow;
   margin-top: 130px;
   font-weight: 700;
   text-align: center;
@@ -308,10 +307,40 @@ body {
 }
 
 .form-text {
-  border: 2px solid blue;
   width: 327px;
   font-weight: 400;
   color: #ebebff;
   font-size: 20px;
   text-align: center;
+}
+
+.name {
+  color: aliceblue;
+  width: fit-content;
+  font-size: 18px;
+}
+
+.name-box {
+  width: auto;
+}
+
+.mail {
+  color: aliceblue;
+  width: fit-content;
+  font-size: 18px;
+}
+
+.mail-box {
+  width: auto;
+}
+
+.message {
+  color: aliceblue;
+  width: fit-content;
+  font-size: 18px;
+}
+
+.message-box {
+  width: auto;
+  margin-left: 24px;
 }
