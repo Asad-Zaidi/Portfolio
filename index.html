@@ -1,320 +1,175 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+<!DOCTYPE html>
+<html lang="en">
 
-body {
-  width: 375px;
-  background-color: #f7f7f9;
-  font-family: 'Poppins', sans-serif;
-  border: 2px solid red;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-.logo-style {
-  position: absolute;
-  top: calc(50% - 20px);
-  left: 12px;
-  padding: 10px 12px;
-}
+<body>
 
-.container {
-  position: relative;
-  width: 375px;
-  height: 48px;
-  font-size: 18px;
-  color: #6070ff;
-  font-family: 'Poppins', sans-serif;
-  box-sizing: border-box;
-}
+    <header class="container">
+        <div class="logo-style">
+            <b>My Logo</b>
+        </div>
+        <div class="menu-style">
+            <img src="./icons/Menu.svg" alt="Menu" class="button">
+        </div>
+    </header>
+    <div class="headline">
+        <b class="greeting-style">
+            <p>I'm Asad Zaidi.<br>Glad to see You!</p>
+        </b>
+        <p class="text1">I'm a software developer! I can help you build a product , feature or website Look through
+            some
+            of my work and experience! If you like what you see and have a project you need coded, don't hesitate to
+            contact
+            me.</p>
+        <h4 class="text2">LET'S CONNECT</p>
+            <img src="./icons/social media icons.svg" alt="Social Media Icons" class="social-media">
+    </div>
+    <div class="card-works">
+        <div class="card-items">
+            <img src="./icons/Snapshoot Portfolio.png" alt="Snapshoot">
+            <h4 class="tonic">Tonic</h4>
+            <div>
+                <li class="tags">CANOPY</li>
+                <li class="tags">Back and Dev</li>
+                <li class="tags">JavaScript</li>
+            </div>
+            <div>
+                <p class="primary-text">A daily selection of privately personalized reads;
+                    no accounts or sign-ups required.</p>
+            </div>
+            <div>
+                <li class="tag">HTML</li>
+                <li class="tag">css</li>
+                <li class="tag">JavaScript</li>
+            </div>
+            <div class="see-project">See Project</div>
+        </div>
+    </div>
+    <div class="card-works">
+        <div class="card-items">
+            <img src="./icons/Snapshoot Portfolio1.png" alt="Snapshoot">
+            <h4 class="tonic">Multi-Post <br> Stories</h4>
+            <div>
+                <li class="tags">CANOPY</li>
+                <li class="tags">Back and Dev</li>
+                <li class="tags">JavaScript</li>
+            </div>
+            <div>
+                <p class="primary-text">A daily selection of privately personalized reads;
+                    no accounts or sign-ups required.</p>
+            </div>
+            <div>
+                <li class="tag">HTML</li>
+                <li class="tag">css</li>
+                <li class="tag">JavaScript</li>
+            </div>
+            <div class="see-project">See Project</div>
+        </div>
+    </div>
+    <div class="card-works">
+        <div class="card-items">
+            <img src="./icons/Snapshoot Portfolio2.png" alt="Snapshoot">
+            <h4 class="tonic">Tonic</h4>
+            <div>
+                <li class="tags">CANOPY</li>
+                <li class="tags">Back and Dev</li>
+                <li class="tags">JavaScript</li>
+            </div>
+            <div>
+                <p class="primary-text">A daily selection of privately personalized reads;
+                    no accounts or sign-ups required.</p>
+            </div>
+            <div>
+                <li class="tag">HTML</li>
+                <li class="tag">css</li>
+                <li class="tag">JavaScript</li>
+            </div>
+            <div class="see-project">See Project</div>
+        </div>
+    </div>
+    <div class="card-works">
+        <div class="card-items">
+            <img src="./icons/Snapshoot Portfolio3.png" alt="Snapshoot">
+            <h4 class="tonic">Multi-Post <br> Stories</h4>
+            <div>
+                <li class="tags">CANOPY</li>
+                <li class="tags">Back and Dev</li>
+                <li class="tags">JavaScript</li>
+            </div>
+            <div>
+                <p class="primary-text">A daily selection of privately personalized reads;
+                    no accounts or sign-ups required.</p>
+            </div>
+            <div>
+                <li class="tag">HTML</li>
+                <li class="tag">css</li>
+                <li class="tag">JavaScript</li>
+            </div>
+            <div class="see-project">See Project</div>
+        </div>
+    </div>
+    <div class="top">
+        <div class="top-items">
+            <h1 class="about-myself">About Myself</h1>
+            <p class="description">
+                Hello I'm a software developer! I can help you build a product ,
+                feature or website. Look through some of my work and experience!
+                If you like what you see and have a project you need coded, don't
+                hesitate to contact me.
+            </p>
+            <h4 class="text2 hover">LET'S CONNECT</h4>
+            <div class="social">
+                <li class="icon hover"><img src="./icons/Frame.svg" alt="GitHub"></li>
+                <li class="icon hover"><img src="./icons/LinkDin.svg" alt="LinkDin"></li>
+                <li class="icon hover"><img src="./icons/angelist 1.svg" alt="Angelist"></li>
+                <li class="icon hover"><img src="./icons/Twitter.svg" alt="Twitter"></li>
+                <li class="icon hover"><img src="./icons/Icon - Medium.svg" alt="Medium"></li>
+            </div>
+            <div class="resume hover">Get My Resume</div>
+            <div class="language-frame">
+                <p class="language hover">Language</p>
+                <img src="./icons/arrow.svg" alt="more" class="arrow hover">
+            </div>
+            <div class="language-name-box">
+                <img src="./icons/JS.svg" alt="more" class="language-icon hover">
+                <p class="language-name hover">JavaScript</p>
+            </div>
+            <div class="language-name-box">
+                <img src="./icons/HTML.svg" alt="more" class="language-icon hover">
+                <p class="language-name hover">HTML</p>
+            </div>
+            <div class="language-name-box">
+                <img src="./icons/CSS.svg" alt="more" class="language-icon hover">
+                <p class="language-name hover">CSS</p>
+            </div>
+            <div class="language-frame1">
+                <p class="language hover">Frame Works</p>
+                <img src="./icons/right-arrow.svg" alt="more" class="arrow hover">
+            </div>
+            <div class="language-frame1">
+                <p class="language hover">Skills</p>
+                <img src="./icons/right-arrow.svg" alt="more" class="arrow hover">
+            </div>
+        </div>
+    </div>
 
-.headline {
-  position: relative;
-  width: 375px;
-  display: flex;
-  flex-direction: column;
-  padding: 70px 24px;
-  font-size: 16px;
-  gap: 12px;
-  color: #172b4d;
-  font-family: 'Poppins', sans-serif;
-  background-image: url(./icons/header-mobile.png);
-  background-repeat: no-repeat;
-  box-sizing: border-box;
-}
+    <div class="contact-body">
+        <h1 class="contact-me">Contact Me</h1>
+        
+        <p class="form-text">
+            If you have an application you are interested in developing, 
+            a feature that you need built or a project that needs coding. 
+            I'd love to help with it!
+        </p>
+        
+    </div>
 
-.menu-style {
-  position: absolute;
-  top: calc(50% - 20px);
-  right: 24px;
-  padding: 8px;
-}
+</body>
 
-.greeting-style {
-  font-size: 40px;
-  line-height: 52px;
-  margin-bottom: 50px;
-  width: 327px;
-  height: 150px;
-}
-
-.text1 {
-  color: #344563;
-  width: 327px;
-  height: auto;
-}
-
-.text2 {
-  position: relative;
-  line-height: 24px;
-  font-weight: 500;
-  color: #7f8cff;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.social-media {
-  width: 170.17px;
-  height: 20px;
-}
-
-.card-works {
-  border: 1px solid #d7d7e2e7;
-  border-radius: 15px;
-  padding: 10px;
-  width: 327px;
-  height: 650px;
-  margin-top: 114px;
-  margin-left: 12px;
-  margin-bottom: 114px;
-  display: grid;
-  grid-template-columns: auto;
-}
-
-.card-items {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 16px;
-  padding: 16px;
-  font-size: 30px;
-  text-align: left;
-}
-
-.tonic {
-  margin: 1px;
-  padding-top: 12px;
-}
-
-.tags {
-  font-weight: 600;
-  display: inline-flex;
-  font-size: 12px;
-  color: #344563;
-}
-
-.primary-text {
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
-  display: inline-block;
-  width: 295px;
-}
-
-.tag {
-  position: relative;
-  border-radius: 8px;
-  background-color: #ebebff;
-  overflow: hidden;
-  display: inline-flex;
-  flex-direction: row;
-  padding: 5px 12px;
-  box-sizing: border-box;
-  font-size: 12px;
-  color: #6070ff;
-}
-
-.see-project {
-  position: relative;
-  border-radius: 8px;
-  display: inline-flex;
-  box-sizing: border-box;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 24px;
-  border: 1px solid #6070ff;
-  padding: 12px;
-  margin-top: 25px;
-  text-align: center;
-  color: #396df2;
-}
-
-.top {
-  border: 1px solid #d7d7e2e7;
-  border-radius: 15px;
-  padding: 10px;
-  width: 327px;
-  height: 1050px;
-  margin-top: 114px;
-  margin-left: 12px;
-}
-
-.top-items {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 16px 70px 16px 16px;
-  padding: 16px;
-  text-align: left;
-}
-
-.about-myself {
-  margin-top: 114px;
-  font-size: 35px;
-  display: flex;
-  text-align: left;
-  align-items: center;
-  height: 35px;
-}
-
-.description {
-  margin-top: 0%;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: left;
-  display: inline-block;
-  height: auto;
-}
-
-.resume {
-  position: relative;
-  border-radius: 8px;
-  display: inline-flex;
-  box-sizing: border-box;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 24px;
-  border: 1px solid #6070ff;
-  padding: 12px;
-  margin-top: 12px;
-  text-align: center;
-  color: #396df2;
-}
-
-.social {
-  list-style: none;
-  padding: 8px;
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
-}
-
-.icon {
-  padding: 4px;
-  height: 16px;
-  width: 16px;
-  justify-content: center;
-}
-
-.language-frame {
-  position: relative;
-  margin-top: 12px;
-  height: 60px;
-  display: flex;
-  flex-direction: row;
-  padding: 6px;
-  align-items: center;
-}
-
-.language {
-  margin: 6px;
-  height: 24px;
-  width: 250px;
-  justify-content: left;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-  color: black;
-}
-
-.arrow {
-  margin: 6px;
-  position: relative;
-  height: 24px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-
-.hover:hover {
-  color: #7308ff;
-  zoom: 1.09;
-}
-
-.language-name-box {
-  position: relative;
-  margin-top: 12px;
-  height: 55px;
-  background-color: #f7f7f9;
-  border-radius: 12px;
-  display: flex;
-  padding: 6px;
-  align-items: center;
-}
-
-.language-icon {
-  margin: 6px;
-  padding-left: 6px;
-  padding-right: 10px;
-  position: relative;
-  height: 48px;
-  width: 48px;
-  flex-shrink: 0;
-}
-
-.language-name {
-  margin: 6px;
-  height: 24px;
-  width: 250px;
-  justify-content: left;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  color: black;
-}
-
-.language-frame1 {
-  position: relative;
-  border-bottom: 2px solid #c8c8cb;
-  margin-top: 12px;
-  height: 60px;
-  display: flex;
-  flex-direction: row;
-  padding: 6px;
-  align-items: center;
-}
-
-.contact-body {
-  height: 779px;
-  background-color: #6070FF;
-  border-radius: 80px 0px 0px 0px;
-  width: 375px;
-  height: 650px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 16px;
-  align-items: center;
-}
-
-.contact-me {
-  border: 1px solid greenyellow;
-  margin-top: 130px;
-  font-weight: 700;
-  text-align: center;
-  height: 50px;
-  color: #ffffff;
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: 52px;
-}
-
-.form-text {
-  border: 2px solid blue;
-  width: 327px;
-  font-weight: 400;
-  color: #ebebff;
-  font-size: 20px;
-  text-align: center;
-}
-
+</html>
