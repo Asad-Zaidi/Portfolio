@@ -317,7 +317,7 @@ textarea {
 
 button[type="submit"] {
   background-color: rgb(255, 255, 255);
-  font-family: "Poppins-Medium", Helvetica;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   color: #6070ff;
   font-size: 20px;
@@ -333,7 +333,7 @@ button[type="submit"]:hover {
 }
 
 textarea::placeholder {
-  font-family: "Poppins-Regular", Helvetica;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   color: #b3bac5;
   font-size: 15px;
