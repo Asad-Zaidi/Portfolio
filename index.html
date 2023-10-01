@@ -159,33 +159,31 @@
         </div>
     </div>
     <div class="contact-body">
-        <h1 class="contact-me">Contact Me</h1>
-        <p class="form-text">
-            If you have an application you are interested in developing,
-            a feature that you need built or a project that needs coding.
-            I'd love to help with it!
-        </p>
-        <form action="https://formspree.io/f/mwkdwlbr" method="POST">
-            <label>
-                <p class="name">Name:</p>
-                <div class="name-box">
-                    <input type="name" name="name">
+        
+            <form action="https://formspree.io/f/mwkdwlbr" method="POST">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name (Maximum 30 Characters)"
+                        maxlength="30" required>
                 </div>
-            </label>
-            <label>
-                <p class="mail">Your Email:</p>
-                <div class="mail-box">
-                    <input type="email" name="email">
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
                 </div>
-            </label>
-            <label>
-                <p class="message">Your Message:</p>
-                <textarea name="message"></textarea>
-            </label>
-            <div>
-                <button type="submit">Send</button>
-            </div>
-        </form>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"
+                        placeholder="Write your message here... (Maximum 500 Characters)" maxlength="500"
+                        required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Get in touch</button>
+                </div>
+            </form>
+        </div>
+        <div class="box">
+            <img src="./icons/Light.png" alt="line">
+        </div>
     </div>
 
 </body>
