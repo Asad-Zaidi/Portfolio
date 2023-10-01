@@ -283,3 +283,37 @@ body {
   padding: 6px;
   align-items: center;
 }
+
+.contact-body {
+  background-color: #6070ff;
+  border-radius: 80px 8px 8px 8px;
+  width: 375px;
+  height: 925px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  align-items: center;
+  color: #ebebff;
+}
+
+.contact-me {
+  margin-top: 130px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  height: 50px;
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 52px;
+}
+
+.form-text {
+  width: 327px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: #ebebff;
+  font-size: 19px;
+  text-align: center;
+  padding-bottom: 12px;
+}
