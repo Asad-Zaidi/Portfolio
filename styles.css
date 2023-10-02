@@ -397,4 +397,18 @@ textarea::placeholder {
   .container {
     width: auto;
   }
+
+  .greeting-style {
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 50px;
+    width: auto;
+    height: 150px;
+  }
+  
+  .text1 {
+    color: #344563;
+    width: auto;
+    height: auto;
+  }
 }
