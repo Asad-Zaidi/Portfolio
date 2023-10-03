@@ -3,68 +3,58 @@
 body {
   background-color: #f7f7f9;
   font-family: 'Poppins', sans-serif;
-}
-
-.logo-style {
-  position: absolute;
-  top: calc(50% - 20px);
-  left: 12px;
-  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
   position: relative;
-  width: 375px;
-  height: 48px;
+  width: 100%;
+  height: 72px;
   font-size: 18px;
   color: #6070ff;
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
 
-.headline {
-  position: relative;
-  width: 375px;
-  display: flex;
-  flex-direction: column;
-  padding: 70px 24px;
-  font-size: 16px;
-  gap: 12px;
-  color: #172b4d;
-  font-family: 'Poppins', sans-serif;
-  background-image: url(./icons/header-mobile.png);
-  background-repeat: no-repeat;
-  box-sizing: border-box;
+.logo-style {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 6px;
+  padding: 6px 12px;
 }
 
 .menu-style {
   position: absolute;
-  top: calc(50% - 20px);
-  right: 24px;
-  padding: 8px;
+  right: 20px;
+  padding: 22px 2px;
+}
+
+.headline {
+  width: 100%;
+  height: fit-content;
+  padding: 12% 11%;
+  font-size: 18px;
+  color: #172b4d;
+  background-image: url(./icons/Header\ desktop.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-sizing: border-box;
 }
 
 .greeting-style {
   font-size: 40px;
-  line-height: 52px;
-  margin-bottom: 50px;
-  width: 327px;
-  height: 150px;
 }
 
 .text1 {
+  width: 80%;
   color: #344563;
-  width: 327px;
-  height: auto;
 }
 
 .text2 {
-  position: relative;
   line-height: 24px;
   font-weight: 500;
   color: #7f8cff;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .social-media {
@@ -73,16 +63,16 @@ body {
 }
 
 .card-works {
+  justify-content: center;
   border: 1px solid #d7d7e2e7;
   border-radius: 15px;
   padding: 10px;
-  width: 327px;
+  width: auto;
   height: 650px;
-  margin-top: 114px;
-  margin-left: 12px;
+  margin-top: 10%;
   margin-bottom: 114px;
   display: grid;
-  grid-template-columns: auto;
+  grid-template-rows: auto;
 }
 
 .card-items {
@@ -236,8 +226,8 @@ body {
 }
 
 .hover:hover {
-  color: #7308ff;
-  zoom: 1.09;
+  color: #fff;
+  background-color: #6070ff;
 }
 
 .language-name-box {
@@ -394,21 +384,7 @@ textarea::placeholder {
 }
 
 @media only screen and (min-width: 768px) {
-  .container {
-    width: auto;
-  }
-
-  .greeting-style {
-    font-size: 40px;
-    line-height: 52px;
-    margin-bottom: 50px;
-    width: auto;
-    height: 150px;
-  }
-
-  .text1 {
-    color: #344563;
-    width: auto;
-    height: auto;
+  .card-works {
+    justify-content: center;
   }
 }
