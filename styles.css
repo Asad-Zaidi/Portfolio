@@ -415,7 +415,6 @@ textarea::placeholder {
 }
 
 @media only screen and (min-width: 768px) {
-
   .headline {
     background-image: url(./icons/Header\ desktop.png);
     background-size: 100% 100%;
