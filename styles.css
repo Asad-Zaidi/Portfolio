@@ -444,6 +444,21 @@ textarea::placeholder {
     position: sticky;
     top: 0;
     z-index: 100;
+    border-radius: 8px;
+  }
+
+  .nav-link {
+    display: flex;
+    align-self: center;
+    margin-right: 13%;
+  }
+
+  .nav-link-style {
+    margin-left: 12%;
+    font-size: 18px;
+    font-weight: 500;
+    color: #344563;
+    text-decoration: none;
   }
 
   .card-works {
