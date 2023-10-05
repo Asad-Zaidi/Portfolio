@@ -84,7 +84,6 @@ body {
   margin: 2%;
   border-radius: 15px;
   border: 1px solid #d7d7e2e7;
-  border-radius: 15px;
   padding: 10px;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -474,7 +473,7 @@ textarea::placeholder {
 
   .section1 {
     display: none;
-  } 
+  }
 
   .section2 {
     display: block;
@@ -497,7 +496,7 @@ textarea::placeholder {
     width: auto;
     size: auto;
   }
-  
+
   .card-works2:hover {
     box-shadow: 0 0 0 1px #727ff4;
   }
@@ -506,14 +505,14 @@ textarea::placeholder {
     align-items: center;
     justify-content: center;
   }
-  
+
   .tonic2 {
     font-size: 40px;
     margin: 1px;
     padding-top: 12px;
     padding-left: 3%;
   }
-  
+
   .tags2 {
     font-weight: 600;
     display: inline-flex;
@@ -521,7 +520,7 @@ textarea::placeholder {
     color: #344563;
     padding-left: 3%;
   }
-  
+
   .primary-text2 {
     position: relative;
     font-size: 15px;
@@ -531,7 +530,7 @@ textarea::placeholder {
     width: auto;
     padding-left: 3%;
   }
-  
+
   .tag2 {
     border: 1px solid #a2abfb;
     border-radius: 8px;
@@ -543,7 +542,7 @@ textarea::placeholder {
     color: #6070ff;
     margin-left: 3%;
   }
-  
+
   .see-project2 {
     width: fit-content;
     position: relative;
