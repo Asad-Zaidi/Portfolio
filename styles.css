@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 body {
-  background-color: #ebebff;
+  background-color: #ececf0;
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
+}
+
+.section2 {
+  display: none;
 }
 
 .container {
@@ -57,7 +61,7 @@ body {
   color: #344563;
 }
 
-.text2 {
+.connect {
   margin-left: 10%;
   line-height: 24px;
   font-size: 18px;
@@ -70,54 +74,37 @@ body {
   margin-bottom: 16%;
 }
 
-.work-section {
-  display: grid;
-  grid-template-rows: repeat(4, auto);
-  width: 100%;
-  height: auto;
-}
-
 .card-works {
   display: flex;
   flex-direction: column;
   background-color: white;
-  height: auto;
-  width: auto;
   justify-items: center;
-  align-items: center;
-  margin-right: 5%;
-  margin-left: 5%;
-  border-radius: 15px;
-  border: 20px solid white;
-  margin-top: 150px;
-  transition: box-shadow 0.4s ease;
-}
-
-.card:hover {
-  box-shadow: 0 0 0 2px #a7aeef;
-}
-
-.card-items h4 {
-  font-size: 32px;
-  font-weight: 700;
-  height: auto;
+  align-items: left;
   width: auto;
-  align-self: flex-start;
-  color: #172b4d;
+  margin: 2%;
+  border-radius: 15px;
+  border: 1px solid #d7d7e2e7;
+  padding: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  transition: box-shadow 0.2s ease;
 }
 
 .img1 {
-  background-image: url(./icons/Snapshoot\ Portfolio.png);
-  height: 230px;
-  width: 300px;
-  background-repeat: no-repeat;
-  align-self: center;
-  margin-left: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-works:hover {
+  box-shadow: 0 0 0 1px #727ff4;
 }
 
 .tonic {
+  font-size: 20px;
   margin: 1px;
   padding-top: 12px;
+  padding-left: 3%;
 }
 
 .tags {
@@ -125,17 +112,21 @@ body {
   display: inline-flex;
   font-size: 12px;
   color: #344563;
+  padding-left: 3%;
 }
 
 .primary-text {
+  position: relative;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
   display: inline-block;
-  width: 295px;
+  width: auto;
+  padding-left: 3%;
 }
 
 .tag {
+  border: 1px solid #a2abfb;
   position: relative;
   border-radius: 8px;
   background-color: #ebebff;
@@ -146,6 +137,7 @@ body {
   box-sizing: border-box;
   font-size: 12px;
   color: #6070ff;
+  margin-left: 3%;
 }
 
 .see-project {
@@ -159,7 +151,8 @@ body {
   line-height: 24px;
   border: 1px solid #6070ff;
   padding: 12px;
-  margin-top: 25px;
+  margin-top: 22px;
+  margin-left: 3%;
   text-align: center;
   color: #396df2;
 }
@@ -452,7 +445,7 @@ textarea::placeholder {
     background-image: url(./icons/Desktop/Header-desktop.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 80vh;
   }
 
   .greeting-style {
@@ -466,19 +459,104 @@ textarea::placeholder {
     width: 60%;
   }
 
-  .card-works {
-    border: 1px solid #d7d7e2e7;
-    border-radius: 15px;
-    padding: 15px;
-    margin-top: 5%;
-    background-color: rgba(240, 240, 240, 0.8);
-  }
-
-  .text2 {
+  .connect {
     margin-left: 15%;
   }
 
   .social-media {
     margin-left: 15%;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .section1 {
+    display: none;
+  }
+
+  .section2 {
+    display: block;
+  }
+
+  .card-works2 {
+    background-color: #fff;
+    width: auto;
+    height: 448px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin: 2%;
+    font-size: 40px;
+    border-radius: 15px;
+    transition: box-shadow 0.2s ease;
+  }
+
+  .img2 {
+    width: auto;
+    size: auto;
+  }
+
+  .card-works2:hover {
+    box-shadow: 0 0 0 1px #727ff4;
+  }
+
+  .card-items2 {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tonic2 {
+    font-size: 40px;
+    margin: 1px;
+    padding-top: 12px;
+    padding-left: 3%;
+  }
+
+  .tags2 {
+    font-weight: 600;
+    display: inline-flex;
+    font-size: 12px;
+    color: #344563;
+    padding-left: 3%;
+  }
+
+  .primary-text2 {
+    position: relative;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+    display: inline-block;
+    width: auto;
+    padding-left: 3%;
+  }
+
+  .tag2 {
+    border: 1px solid #a2abfb;
+    border-radius: 8px;
+    background-color: #ebebff;
+    overflow: hidden;
+    display: inline-flex;
+    padding: 5px 12px;
+    font-size: 12px;
+    color: #6070ff;
+    margin-left: 3%;
+  }
+
+  .see-project2 {
+    width: fit-content;
+    position: relative;
+    border-radius: 8px;
+    display: inline-flex;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    border: 1px solid #6070ff;
+    padding: 12px;
+    margin-top: 22px;
+    margin-left: 3%;
+    text-align: center;
+    color: #396df2;
   }
 }
