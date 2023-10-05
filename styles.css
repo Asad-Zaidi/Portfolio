@@ -15,18 +15,20 @@ body {
   background-color: #fff;
 }
 
-.nav-links {
+.nav-link {
   display: none;
 }
 
 .logo-style {
-  font-size: 18px;
+  padding: 10px;
+  font-size: 20px;
   font-weight: 700;
   margin-left: 20px;
   color: #6070ff;
 }
 
 .menu-style {
+  padding: 10px;
   margin-right: 20px;
 }
 
@@ -42,7 +44,7 @@ body {
 
 .greeting-style {
   font-size: 40px;
-  width: 70%;
+  width: 85%;
   margin-left: 10%;
   color: #172b4d;
   margin-top: 25%;
@@ -415,6 +417,37 @@ textarea::placeholder {
 }
 
 @media only screen and (min-width: 768px) {
+  .container {
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-radius: 8px;
+  }
+
+  .logo-style {
+    padding: 8px;
+    margin-left: 8%;
+  }
+
+  .menu-style {
+    display: none;
+  }
+
+  .nav-link {
+    padding: 8px;
+    display: flex;
+    align-self: center;
+    margin-right: 12%;
+  }
+
+  .nav-link-style {
+    margin-left: 12%;
+    font-size: 18px;
+    font-weight: 500;
+    color: #396df2;
+  }
+
   .headline {
     background-image: url(./icons/Header\ desktop.png);
     background-size: 100% 100%;
@@ -423,42 +456,14 @@ textarea::placeholder {
   }
 
   .greeting-style {
+    margin-left: 15%;
     margin-top: 10%;
     width: 30%;
   }
 
   .intro {
+    margin-left: 15%;
     width: 60%;
-  }
-
-  .logo-style {
-    margin-left: 8%;
-  }
-
-  .menu-style {
-    margin-right: 8%;
-    display: none;
-  }
-
-  .container {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    border-radius: 8px;
-  }
-
-  .nav-link {
-    display: flex;
-    align-self: center;
-    margin-right: 13%;
-  }
-
-  .nav-link-style {
-    margin-left: 12%;
-    font-size: 18px;
-    font-weight: 500;
-    color: #344563;
-    text-decoration: none;
   }
 
   .card-works {
@@ -467,5 +472,13 @@ textarea::placeholder {
     padding: 15px;
     margin-top: 5%;
     background-color: rgba(240, 240, 240, 0.8);
+  }
+
+  .text2 {
+    margin-left: 15%;
+  }
+  
+  .social-media {
+    margin-left: 15%;
   }
 }
