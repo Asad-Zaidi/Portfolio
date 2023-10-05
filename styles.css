@@ -449,7 +449,7 @@ textarea::placeholder {
   }
 
   .headline {
-    background-image: url(./icons/Header\ desktop.png);
+    background-image: url(./icons/Desktop/Header-desktop.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 90vh;
