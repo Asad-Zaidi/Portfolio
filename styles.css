@@ -46,6 +46,67 @@ body {
   background-color: #fff;
 }
 
+.slide-in-text {
+  transform: translateX(-100%);
+  opacity: 1;
+  position: relative;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slide-in-text {
+  animation: slide-in 2s ease-out forwards;
+}
+
+.zoom-in-text {
+  transform: scale(0);
+  opacity: 0;
+  position: relative;
+  transform-origin: top left;
+}
+
+@keyframes zoom-in {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.zoom-in-text {
+  animation: zoom-in 1.9s ease-out forwards;
+}
+
+.fade-in {
+  opacity: 0;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fade-in 4s ease-in-out forwards;
+}
+
 .greeting-style {
   font-size: 40px;
   width: 85%;
@@ -88,6 +149,7 @@ body {
   padding-top: 12px;
   padding-bottom: 12px;
   transition: box-shadow 0.2s ease;
+  transition: transform .8s;
 }
 
 .img1 {
@@ -98,6 +160,7 @@ body {
 
 .card-works:hover {
   box-shadow: 0 0 0 1px #727ff4;
+  transform: scale(1.1);
 }
 
 .tonic {
@@ -488,6 +551,8 @@ textarea::placeholder {
     width: auto;
     height: 498px;
     box-sizing: border-box;
+    transition: box-shadow 0.2s ease;
+    transition: transform .8s;
   }
 
   .card-works2 img {
@@ -500,6 +565,7 @@ textarea::placeholder {
 
   .card-works2:hover {
     box-shadow: 0 0 0 1px #727ff4;
+    transform: scale(1.05);
   }
 
   .detail {
@@ -575,6 +641,8 @@ textarea::placeholder {
     align-items: center;
     box-sizing: border-box;
     height: 498px;
+    transition: box-shadow 0.2s ease;
+    transition: transform .8s;
   }
 
   .card-reverse img {
@@ -587,6 +655,7 @@ textarea::placeholder {
 
   .card-reverse:hover {
     box-shadow: 0 0 0 1px #727ff4;
+    transform: scale(1.05);
   }
 
   .detail-reverse {
