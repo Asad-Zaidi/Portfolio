@@ -477,7 +477,7 @@ textarea::placeholder {
 
   .section2 {
     display: block;
-  } 
+  }
 
   .card-works2 {
     margin: 2%;
@@ -525,7 +525,6 @@ textarea::placeholder {
   }
 
   .primary-text2 {
-    width: fit-content;
     font-size: 15px;
     line-height: 24px;
     color: #344563;
@@ -575,7 +574,6 @@ textarea::placeholder {
     width: auto;
     align-items: center;
     box-sizing: border-box;
-    width: auto;
     height: 498px;
   }
 
