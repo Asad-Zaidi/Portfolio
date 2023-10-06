@@ -140,7 +140,7 @@ body {
   padding-top: 12px;
   padding-bottom: 12px;
   transition: box-shadow 0.2s ease;
-  transition: transform .8s;
+  transition: transform 0.8s;
 }
 
 .img1 {
@@ -543,7 +543,7 @@ textarea::placeholder {
     height: 498px;
     box-sizing: border-box;
     transition: box-shadow 0.2s ease;
-    transition: transform .8s;
+    transition: transform 0.8s;
   }
 
   .card-works2 img {
@@ -633,7 +633,7 @@ textarea::placeholder {
     box-sizing: border-box;
     height: 498px;
     transition: box-shadow 0.2s ease;
-    transition: transform .8s;
+    transition: transform 0.8s;
   }
 
   .card-reverse img {
