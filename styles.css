@@ -50,6 +50,7 @@ body {
   transform: translateX(-100%);
   opacity: 1;
   position: relative;
+  animation: slide-in 2s ease-out forwards;
 }
 
 @keyframes slide-in {
@@ -62,15 +63,12 @@ body {
   }
 }
 
-.slide-in-text {
-  animation: slide-in 2s ease-out forwards;
-}
-
 .zoom-in-text {
   transform: scale(0);
   opacity: 0;
   position: relative;
   transform-origin: top left;
+  animation: zoom-in 1.9s ease-out forwards;
 }
 
 @keyframes zoom-in {
@@ -85,12 +83,9 @@ body {
   }
 }
 
-.zoom-in-text {
-  animation: zoom-in 1.9s ease-out forwards;
-}
-
 .fade-in {
   opacity: 0;
+  animation: fade-in 4s ease-in-out forwards;
 }
 
 @keyframes fade-in {
@@ -101,10 +96,6 @@ body {
   to {
     opacity: 1;
   }
-}
-
-.fade-in {
-  animation: fade-in 4s ease-in-out forwards;
 }
 
 .greeting-style {
