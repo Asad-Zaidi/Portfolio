@@ -550,7 +550,7 @@ textarea::placeholder {
     padding: 2%;
     border-radius: 16px;
     height: auto;
-    width: 70%;
+    width: auto;
     overflow: auto;
   }
 
@@ -640,7 +640,7 @@ textarea::placeholder {
     padding: 2%;
     border-radius: 16px;
     height: auto;
-    width: 65%;
+    width: auto;
     overflow: auto;
   }
 
