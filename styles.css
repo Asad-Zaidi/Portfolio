@@ -549,9 +549,11 @@ textarea::placeholder {
   .card-works2 img {
     padding: 2%;
     border-radius: 16px;
-    height: auto;
-    width: auto;
-    overflow: auto;
+    position: relative;
+    height: 448;
+    width: 544;
+    overflow: hidden;
+    object-fit: cover;
   }
 
   .card-works2:hover {
@@ -560,14 +562,14 @@ textarea::placeholder {
   }
 
   .detail {
-    width: fit-content;
+    width: 544px;
   }
 
   .tonic2 {
     width: fit-content;
     font-size: 40px;
     font-weight: 700;
-    margin-top: 7%;
+    margin-top: 15%;
     margin-left: 3%;
   }
 
@@ -639,9 +641,11 @@ textarea::placeholder {
   .card-reverse img {
     padding: 2%;
     border-radius: 16px;
-    height: auto;
-    width: auto;
-    overflow: auto;
+    position: relative;
+    height: 448;
+    width: 544;
+    overflow: hidden;
+    object-fit: cover;
   }
 
   .card-reverse:hover {
@@ -650,15 +654,14 @@ textarea::placeholder {
   }
 
   .detail-reverse {
-    width: fit-content;
+    width: 544px;
   }
 
   .tonic-reverse {
     width: fit-content;
     font-size: 40px;
     font-weight: 700;
-    margin-top: 7%;
-    margin-left: 8%;
+    margin-left: 3%;
   }
 
   .tags-reverse {
@@ -668,7 +671,7 @@ textarea::placeholder {
     font-size: 18px;
     color: #344563;
     margin-top: 3%;
-    margin-left: 8%;
+    margin-left: 3%;
   }
 
   .primary-text-reverse {
@@ -678,7 +681,7 @@ textarea::placeholder {
     line-height: 24px;
     color: #344563;
     display: inline-block;
-    margin-left: 8%;
+    margin-left: 3%;
     padding-bottom: 2%;
     padding-top: 2%;
   }
@@ -692,7 +695,7 @@ textarea::placeholder {
     padding: 5px 12px;
     font-size: 12px;
     color: #6070ff;
-    margin-left: 8%;
+    margin-left: 3%;
     width: fit-content;
   }
 
@@ -707,7 +710,7 @@ textarea::placeholder {
     border: 1px solid #6070ff;
     padding: 12px;
     margin-top: 5%;
-    margin-left: 8%;
+    margin-left: 3%;
     text-align: center;
     color: #396df2;
   }
