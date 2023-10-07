@@ -11,7 +11,7 @@
 
 <body>
 
-    <div class="container">
+    <div class="nav-bar">
         <h1 class="logo-style">My Logo</h1>
         <img src="./icons/Menu.svg" alt="Menu" class="menu-style">
         <div class="nav-link">
@@ -274,8 +274,8 @@
                 a feature that you need built or a project that needs coding.
                 I'd love to help with it!
             </p>
-            <div>
-                <form action="https://formspree.io/f/mwkdwlbr" method="POST">
+            <div class="container">
+                <form id="form1" class="container-mobile" action="https://formspree.io/f/mwkdwlbr" method="POST">
                     <div>
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" placeholder="Your Name (Maximum 30 Characters)"
@@ -292,7 +292,27 @@
                             required></textarea>
                     </div>
                     <div>
-                        <button type="submit" >Get in touch</button>
+                        <button type="submit">Get in touch</button>
+                    </div>
+                </form>
+                <form id="form2" class="container-desktop">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name (Maximum 30 Characters)"
+                            maxlength="30" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message"
+                            placeholder="Write your message here... (Maximum 500 Characters)" maxlength="500"
+                            required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Get in touch</button>
                     </div>
                 </form>
             </div>
