@@ -215,38 +215,45 @@ body {
   border: 1px solid #d7d7e2e7;
   border-radius: 15px;
   padding: 10px;
-  width: 327px;
-  height: 1050px;
-  margin-top: 114px;
-  margin-left: 12px;
+  width: auto;
+  height: 1113px;
+  margin: 2%;
 }
 
 .top-items {
   background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 16px 70px 16px 16px;
+  border-radius: 16px 80px 16px 16px;
   padding: 16px;
-  text-align: left;
+  height: 1080px;
 }
 
 .about-myself {
+  margin-left: 5%;
   margin-top: 114px;
   font-size: 35px;
   display: flex;
-  text-align: left;
-  align-items: center;
-  height: 35px;
-}
-
-.description {
-  margin-top: 0%;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: left;
-  display: inline-block;
+  width: 90%;
   height: auto;
 }
 
+.description {
+  margin-left: 5%;
+  margin-top: 0%;
+  font-size: 16px;
+  line-height: 24px;
+  width: 90%;
+}
+
+.connect-contact {
+  margin-left: 5%;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #7f8cff;
+}
+
 .resume {
+  margin-left: 5%;
   position: relative;
   border-radius: 8px;
   display: inline-flex;
@@ -262,10 +269,12 @@ body {
 }
 
 .social {
+  margin-left: 5%;
   list-style: none;
   padding: 8px;
+  padding-left: 0%;
   display: flex;
-  flex-direction: row;
+  width: fit-content;
   gap: 16px;
 }
 
@@ -277,19 +286,20 @@ body {
 }
 
 .language-frame {
+  width: 90%;
+  margin-left: 5%;
   position: relative;
   margin-top: 12px;
   height: 60px;
   display: flex;
   flex-direction: row;
-  padding: 6px;
+  justify-content: space-between;
   align-items: center;
 }
 
 .language {
   margin: 6px;
   height: 24px;
-  width: 250px;
   justify-content: left;
   font-size: 20px;
   font-weight: 500;
@@ -298,11 +308,8 @@ body {
 }
 
 .arrow {
-  margin: 6px;
-  position: relative;
-  height: 24px;
-  overflow: hidden;
-  flex-shrink: 0;
+  margin: 7px;
+  height: 25px;
 }
 
 .hover:hover {
@@ -311,13 +318,15 @@ body {
 }
 
 .language-name-box {
-  position: relative;
+  border: 1px solid #f0f0f0;
+  width: 90%;
   margin-top: 12px;
+  margin-left: 5%;
+  padding: 6px 0px 6px;
   height: 55px;
   background-color: #f7f7f9;
   border-radius: 12px;
   display: flex;
-  padding: 6px;
   align-items: center;
 }
 
@@ -343,10 +352,11 @@ body {
 }
 
 .language-frame1 {
-  position: relative;
+  margin-left: 5%;
+  width: 86%;
   border-bottom: 2px solid #c8c8cb;
   margin-top: 12px;
-  height: 60px;
+  height: 50px;
   display: flex;
   flex-direction: row;
   padding: 6px;
@@ -356,8 +366,8 @@ body {
 .contact-body {
   background-color: #6070ff;
   border-radius: 80px 8px 8px 8px;
-  width: 375px;
-  height: 980px;
+  width: auto;
+  height: 960px;
   display: flex;
   flex-direction: column;
   margin-top: 16px;
@@ -378,20 +388,18 @@ body {
 }
 
 .form-text {
-  width: 327px;
+  width: 80%;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
   color: #ebebff;
   font-size: 19px;
   text-align: center;
-  padding-bottom: 12px;
+  padding: 8px;
+  margin-bottom: 3%;
 }
 
 .container1 {
-  width: 375px;
-  margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
   background-color: #f8f8f8;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -404,16 +412,16 @@ form {
 label {
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
-  font-size: 17px;
-  padding: 11px;
+  font-size: 18px;
+  margin-left: 5%;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-  width: 315px;
+  width: 80%;
   padding: 17px;
-  margin-left: 10px;
+  margin-left: 5%;
   margin-bottom: 15px;
   border: 1px solid rgb(204, 204, 204);
   border-radius: 8px;
@@ -439,11 +447,13 @@ button[type="submit"] {
   width: 149px;
   cursor: pointer;
   border-radius: 8px;
-  margin-left: 11px;
+  margin-left: 5%;
+  transition: transform 0.8s;
 }
 
 button[type="submit"]:hover {
   background-color: rgb(237, 238, 240);
+  transform: scale(1.02);
 }
 
 textarea::placeholder {
@@ -534,7 +544,7 @@ textarea::placeholder {
   }
 
   .card-works2 {
-    margin: 3%;
+    margin: 2%;
     display: flex;
     flex-direction: row;
     background-color: rgb(247, 246, 246);
