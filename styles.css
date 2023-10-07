@@ -44,6 +44,7 @@ body {
   background-size: cover;
   border-bottom-left-radius: 50px;
   background-color: #fff;
+  margin-bottom: 10%;
 }
 
 .greeting-style {
@@ -131,16 +132,21 @@ body {
   flex-direction: column;
   background-color: white;
   justify-items: center;
-  align-items: left;
   width: auto;
   margin: 2%;
   border-radius: 15px;
   border: 1px solid #d7d7e2e7;
-  height: 500px;
-  padding: 15px 12px 15px;
+  height: 550px;
   transition: box-shadow 0.2s ease;
   transition: transform 0.8s;
-  margin-bottom: 12%;
+  margin-bottom: 15%;
+}
+
+.card-items {
+  padding-top: 5px;
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
 }
 
 .img1 {
@@ -155,10 +161,12 @@ body {
 }
 
 .tonic {
+  border: 2px solid red;
   font-size: 20px;
-  margin: 1px;
-  padding-top: 12px;
-  padding-left: 3%;
+  width: fit-content;
+  margin-top: 6%;
+  margin-left: 3%;
+  margin-bottom: 0%;
 }
 
 .tags {
@@ -560,7 +568,7 @@ textarea::placeholder {
     width: auto;
     align-items: center;
     justify-content: space-around;
-    height: 498px;
+    height: auto;
     box-sizing: border-box;
     transition: box-shadow 0.2s ease;
     transition: transform 0.8s;
@@ -648,7 +656,7 @@ textarea::placeholder {
     align-items: center;
     justify-content: space-around;
     box-sizing: border-box;
-    height: 498px;
+    height: auto;
     transition: box-shadow 0.2s ease;
     transition: transform 0.8s;
   }
@@ -662,6 +670,7 @@ textarea::placeholder {
     overflow: hidden;
     object-fit: cover;
     margin-left: 2%;
+    margin-right: 1.5%;
   }
 
   .card-reverse:hover {
