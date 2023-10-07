@@ -488,13 +488,6 @@ textarea::placeholder {
   width: auto;
 }
 
-.box {
-  margin-top: 40px;
-  padding-top: 8px;
-  align-items: center;
-  justify-content: center;
-}
-
 @media only screen and (min-width: 768px) {
   .nav-bar {
     align-items: center;
@@ -571,9 +564,9 @@ textarea::placeholder {
     background-color: rgb(247, 246, 246);
     border-radius: 16px;
     width: auto;
+    height: 496px;
     align-items: center;
     justify-content: space-between;
-    height: auto;
     box-sizing: border-box;
     transition: box-shadow 0.2s ease;
     transition: transform 0.8s;
@@ -658,9 +651,9 @@ textarea::placeholder {
     background-color: rgb(247, 246, 246);
     border-radius: 16px;
     width: auto;
+    height: 496px;
     align-items: center;
     justify-content: space-between;
-    height: auto;
     box-sizing: border-box;
     transition: box-shadow 0.2s ease;
     transition: transform 0.8s;
@@ -772,7 +765,6 @@ textarea::placeholder {
     margin-top: 166px;
     margin-bottom: 166px;
     margin-left: 143px;
-    border: 2px solid red;
     height: auto;
     width: 500px;
   }
@@ -799,7 +791,6 @@ textarea::placeholder {
   }
 
   .right-block {
-    border: 2px solid black;
     width: 684px;
     height: fit-content;
     margin-top: 166px;
