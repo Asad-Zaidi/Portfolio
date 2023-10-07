@@ -488,7 +488,6 @@ textarea::placeholder {
     position: sticky;
     top: 0;
     z-index: 100;
-    border-radius: 8px;
   }
 
   .logo-style {
