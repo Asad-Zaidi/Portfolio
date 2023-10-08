@@ -473,7 +473,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: rgb(237, 238, 240);
+  background-color: rgb(238, 238, 240);
   transform: scale(1.02);
 }
 
