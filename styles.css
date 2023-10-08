@@ -522,7 +522,7 @@ textarea::placeholder {
     background-image: url(./icons/Desktop/Header-desktop.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: auto;
   }
 
   .greeting-style {
