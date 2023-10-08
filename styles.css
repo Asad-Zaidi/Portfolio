@@ -130,7 +130,7 @@ body {
 .card-works {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: #fff;
   justify-items: center;
   width: auto;
   margin: 2%;
