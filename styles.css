@@ -5,6 +5,7 @@ body {
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .section2 {
@@ -382,7 +383,6 @@ body {
   height: 1024px;
   display: flex;
   flex-direction: column;
-  margin-top: 16px;
   align-items: center;
   color: #ebebff;
 }
