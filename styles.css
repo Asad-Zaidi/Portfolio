@@ -224,19 +224,14 @@ body {
 }
 
 .top-mobile {
-  border: 1px solid #d7d7e2e8;
-  border-radius: 15px;
-  padding: 10px;
   width: auto;
-  height: 1113px;
-  margin: 2%;
+  background-color: #fff;
+  border-radius: 0 130px 0 0;
 }
 
 .top-items {
-  background-color: #fffc;
-  border-radius: 16px 80px 16px 16px;
   padding: 16px;
-  height: 1080px;
+  height: 1050px;
 }
 
 .about-myself {
@@ -378,7 +373,7 @@ body {
 
 .contact-body {
   background-color: #6070ff;
-  border-radius: 125px 8px 8px 8px;
+  border-radius: 125px 0 8px 8px;
   width: auto;
   height: 1024px;
   display: flex;
