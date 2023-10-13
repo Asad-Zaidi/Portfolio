@@ -378,7 +378,7 @@ body {
 
 .contact-body {
   background-color: #6070ff;
-  border-radius: 80px 8px 8px 8px;
+  border-radius: 150px 8px 8px 8px;
   width: auto;
   height: 1024px;
   display: flex;
@@ -747,17 +747,19 @@ textarea::placeholder {
     display: none;
   }
 
+  .contact-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+  }
+
   .top-desktop {
     display: flex;
     flex-direction: row;
-    border: 1px solid #d7d7e2e7;
-    background-color: #fff;
-    border-radius: 15px;
-    padding: 10px;
-    width: auto;
-    height: auto;
-    margin: 2%;
-    justify-content: center;
   }
 
   .left-block {
