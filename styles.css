@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 body {
-  background-color: #ececf0;
+  background-color: #f3f3f3;
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
@@ -378,7 +378,7 @@ body {
 
 .contact-body {
   background-color: #6070ff;
-  border-radius: 150px 8px 8px 8px;
+  border-radius: 125px 8px 8px 8px;
   width: auto;
   height: 1024px;
   display: flex;
@@ -560,7 +560,7 @@ textarea::placeholder {
     margin: 2%;
     display: flex;
     flex-direction: row;
-    background-color: #f7f6f6;
+    background-color: #fff;
     border-radius: 16px;
     width: auto;
     height: 496px;
@@ -647,7 +647,7 @@ textarea::placeholder {
     margin: 2%;
     display: flex;
     flex-direction: row-reverse;
-    background-color: #f7f6f6;
+    background-color: #fff;
     border-radius: 16px;
     width: auto;
     height: 496px;
@@ -751,7 +751,7 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    border-radius: 15px;
+    border-radius: 15px 125px 15px 15px;
     width: auto;
     height: auto;
     justify-content: center;
