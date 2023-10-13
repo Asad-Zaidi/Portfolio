@@ -458,7 +458,7 @@ button[type="submit"] {
   color: #6070ff;
   font-size: 20px;
   padding: 10px;
-  border: 1px rgb(209, 209, 209);
+  border: 1px #d1d1d1;
   height: 48px;
   width: 149px;
   cursor: pointer;
