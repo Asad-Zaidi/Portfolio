@@ -27,10 +27,8 @@
 **[Portfolio Project]** is my first **Mobile First Approach** project.
 
 ## 🛠 Built With <a name="built-with"></a>
+
     HTML and CSS
-
-
-<
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
