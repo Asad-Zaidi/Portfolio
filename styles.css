@@ -827,13 +827,17 @@ textarea::placeholder {
   }
 
   .language-name-box-desktop {
-    border: 1px solid #f0f0f0;
-    width: 122px;
-    padding: 6px;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    width: 132px;
+    height: 110px;
+    padding: 6px;
     background-color: #f7f7f9;
     border-radius: 12px;
-    align-items: flex-start;
+    margin-bottom: 10px;
   }
 
   .language-frame1-desktop {
