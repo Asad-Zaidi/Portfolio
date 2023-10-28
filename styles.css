@@ -798,16 +798,29 @@ textarea::placeholder {
   .language-frame-desktop {
     width: 90%;
     margin-left: 5%;
-    position: relative;
     margin-top: 12px;
     height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 6px;
+  }
+
+  .language-desktop {
+    margin: 6px;
+    height: 24px;
+    justify-content: left;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: black;
   }
 
   .language-container {
+    margin-left: 5%;
+    width: 90%;
+    border-bottom: 2px solid #c8c8cb;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
