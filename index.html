@@ -7,6 +7,11 @@
     <title>Portfolio</title>
     <link rel="icon" href="./icons/favicon.png">
     <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+
 </head>
 
 <body>
@@ -135,7 +140,7 @@
 
     <!--Desktop-Section-->
 
-    <section class="section2">
+    <section class="section2 work-section">
         <div class="card-works2">
             <img src="./icons/Desktop/Snapshoot1.png" alt="Snapshoot">
             <div class="detail">
@@ -297,24 +302,29 @@
                     <div class="resume hover">Get My Resume</div>
                 </div>
                 <div class="right-block">
-                    <div class="language-frame-desktop">
-                        <p class="language">Languages</p>
-                        <img src="./icons/arrow.svg" alt="more" class="arrow">
+                    <div class="toggle">
+                        <div class="language-frame-desktop">
+                            <p class="language-desktop">Languages</p>
+                            <img src="./icons/arrow.svg" alt="more" class="arrow">
+                        </div>
+
+                        <div class="language-container">
+                            <div class="language-name-box-desktop gt hover" id="myDiv">
+                                <img src="./icons/JS.svg" alt="more" class="language-icon" id="demo">
+                                <p class="language-name">JavaScript</p>
+                            </div>
+                            <div class="language-name-box-desktop gt hover">
+                                <img src="./icons/HTML.svg" alt="more" class="language-icon">
+                                <p class="language-name">HTML</p>
+                            </div>
+                            <div class="language-name-box-desktop gt hover">
+                                <img src="./icons/CSS.svg" alt="more" class="language-icon">
+                                <p class="language-name">CSS</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="language-container">
-                        <div class="language-name-box-desktop gt hover gt">
-                            <img src="./icons/JS.svg" alt="more" class="language-icon">
-                            <p class="language-name">JavaScript</p>
-                        </div>
-                        <div class="language-name-box-desktop gt hover">
-                            <img src="./icons/HTML.svg" alt="more" class="language-icon">
-                            <p class="language-name">HTML</p>
-                        </div>
-                        <div class="language-name-box-desktop gt hover">
-                            <img src="./icons/CSS.svg" alt="more" class="language-icon">
-                            <p class="language-name">CSS</p>
-                        </div>
-                    </div>
+
+
                     <div class="language-frame1-desktop">
                         <p class="language">Frame Works</p>
                         <img src="./icons/right-arrow.svg" alt="more" class="arrow">
@@ -325,6 +335,7 @@
                     </div>
                 </div>
             </div>
+
 
             <!--Contact Me-->
 
@@ -381,7 +392,7 @@
         </div>
     </section>
 
-   <script src="./index.js"></script>
+    <script src="./index.js"></script>
 
 </body>
 
