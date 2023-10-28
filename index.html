@@ -8,17 +8,24 @@
     <link rel="icon" href="./icons/favicon.png">
     <link rel="stylesheet" href="styles.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-        crossorigin="anonymous" />
-
 </head>
 
 <body>
 
     <div class="nav-bar">
         <h1 class="logo-style">My Logo</h1>
-        <img src="./icons/Menu.svg" alt="Menu" class="menu-style">
+        <div class="menu">
+            <button onclick="myFunction()" class="menu-btn">
+                <img src="./icons/Menu.svg" alt="Menu" class="menu-style">
+            </button>
+            <div id="myDropdown" class="menu-content">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+
+
         <div class="nav-link">
             <a href="#work-section" class="nav-link-style">Portfolio</a>
             <a href="#about" class="nav-link-style">About</a>
