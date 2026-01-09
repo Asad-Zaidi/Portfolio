@@ -8,12 +8,15 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 body {
-    font-family: poppins, sans-serif;
-    color: #333;
-    background-color: #FAF9F6;
+  overflow: hidden;
+  height: 100vh;
+  font-family: poppins, sans-serif;
+  color: #333;
+  background-color: #FAF9F6;
 }

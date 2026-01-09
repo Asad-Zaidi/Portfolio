@@ -13,7 +13,7 @@ const Navbar = () => {
         }`;
 
     return (
-        <nav className="bg-black backdrop-blur-md border-b border-white/10 shadow-lg px-6 md:px-12 py-4 flex justify-between items-center sticky top-0 z-50">
+        <nav className="bg-gray-800 backdrop-blur-sm border-b border-white/10 shadow-lg h-15 px-6 md:px-12 py-4 flex justify-between items-center sticky top-0 z-50">
          {/* Logo */}
             <Link
                 to="/"
