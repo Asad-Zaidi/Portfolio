@@ -3,6 +3,8 @@ import { useLocation } from "react-router-dom";
 import { FaReact, FaNodeJs, FaDocker } from "react-icons/fa";
 import { SiFastapi, SiTensorflow, SiMongodb } from "react-icons/si";
 import { Link } from "react-router-dom";
+import Background from "../components/ui/Background";
+import Navbar from "../components/Navbar";
 
 const ProjectDetail = () => {
     // Example project if none passed
@@ -27,86 +29,89 @@ const ProjectDetail = () => {
 
 
     return (
-        <div className="min-h-screen w-full bg-[#0f172a] text-white p-6 md:p-12 relative">
-            {/* Back Button */}
-            <Link
-                to="/projects"
-                className="inline-block mb-6 px-4 py-2 border border-white/30 rounded-lg text-sm hover:bg-white/10 transition"
-            >
-                &larr; Back to Projects
-            </Link>
+        <Background>
+            <Navbar />
+            <div className="relative z-10 px-4 md:px-6 lg:px-8 py-4 md:py-8">
+                {/* Back Button */}
+                <Link
+                    to="/projects"
+                    className="inline-block mb-6 px-4 py-2 border border-white/30 rounded-lg text-sm hover:bg-white/10 transition"
+                >
+                    &larr; Back to Projects
+                </Link>
 
-            {/* Main Card */}
-            <div className="w-full md:max-w-5xl mx-auto bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 flex flex-col gap-6">
-                <h1 className="text-3xl font-bold">{project.title}</h1>
-                <p className="text-gray-300">{project.description}</p>
+                {/* Main Card */}
+                <div className="w-full md:max-w-5xl mx-auto bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 flex flex-col gap-6">
+                    <h1 className="text-3xl font-bold">{project.title}</h1>
+                    <p className="text-gray-300">{project.description}</p>
 
-                {/* Tech Stack */}
-                <div>
-                    <h2 className="text-xl font-semibold mb-2">Tech Stack</h2>
-                    <div className="flex flex-wrap gap-3">
-                        {tech.map((item, idx) => (
-                            <TechIcon key={idx} name={item} />
-                        ))}
-                    </div>
-                </div>
-
-                {/* Features / Functionality */}
-                <div>
-                    <h2 className="text-xl font-semibold mb-2">Features / Functionality</h2>
-                    <ul className="list-disc list-inside text-gray-300 space-y-1">
-                        {features.length > 0 ? (
-                            features.map((feature, idx) => (
-                                <li key={idx}>{feature}</li>
-                            ))
-                        ) : (
-                            <li className="text-gray-400">Details coming soon</li>
-                        )}
-                    </ul>
-                </div>
-
-                {/* Screenshots / Images */}
-                {images.length > 0 && (
+                    {/* Tech Stack */}
                     <div>
-                        <h2 className="text-xl font-semibold mb-2">Screenshots</h2>
-                        <div className="flex flex-wrap gap-4">
-                            {images.map((img, idx) => (
-                                <img
-                                    key={idx}
-                                    src={img}
-                                    alt={`Screenshot ${idx + 1}`}
-                                    className="rounded-lg border border-white/20 max-w-[300px] object-cover"
-                                />
+                        <h2 className="text-xl font-semibold mb-2">Tech Stack</h2>
+                        <div className="flex flex-wrap gap-3">
+                            {tech.map((item, idx) => (
+                                <TechIcon key={idx} name={item} />
                             ))}
                         </div>
                     </div>
-                )}
 
-                {/* Links */}
-                <div className="flex flex-wrap gap-4 mt-4">
-                    {demoLink && (
-                        <a
-                            href={demoLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="px-4 py-2 rounded-lg border border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white transition"
-                        >
-                            Live Demo
-                        </a>
+                    {/* Features / Functionality */}
+                    <div>
+                        <h2 className="text-xl font-semibold mb-2">Features / Functionality</h2>
+                        <ul className="list-disc list-inside text-gray-300 space-y-1">
+                            {features.length > 0 ? (
+                                features.map((feature, idx) => (
+                                    <li key={idx}>{feature}</li>
+                                ))
+                            ) : (
+                                <li className="text-gray-400">Details coming soon</li>
+                            )}
+                        </ul>
+                    </div>
+
+                    {/* Screenshots / Images */}
+                    {images.length > 0 && (
+                        <div>
+                            <h2 className="text-xl font-semibold mb-2">Screenshots</h2>
+                            <div className="flex flex-wrap gap-4">
+                                {images.map((img, idx) => (
+                                    <img
+                                        key={idx}
+                                        src={img}
+                                        alt={`Screenshot ${idx + 1}`}
+                                        className="rounded-lg border border-white/20 max-w-[300px] object-cover"
+                                    />
+                                ))}
+                            </div>
+                        </div>
                     )}
-                    {repoLink && (
-                        <a
-                            href={repoLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="px-4 py-2 rounded-lg border border-green-500 text-green-400 hover:bg-green-500 hover:text-white transition"
-                        >
-                            GitHub Repo
-                        </a>
-                    )}
+
+                    {/* Links */}
+                    <div className="flex flex-wrap gap-4 mt-4">
+                        {demoLink && (
+                            <a
+                                href={demoLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="px-4 py-2 rounded-lg border border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white transition"
+                            >
+                                Live Demo
+                            </a>
+                        )}
+                        {repoLink && (
+                            <a
+                                href={repoLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="px-4 py-2 rounded-lg border border-green-500 text-green-400 hover:bg-green-500 hover:text-white transition"
+                            >
+                                GitHub Repo
+                            </a>
+                        )}
+                    </div>
                 </div>
             </div>
-        </div>
+        </Background>
     );
 };
 

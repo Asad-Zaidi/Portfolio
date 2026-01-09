@@ -2,6 +2,8 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import { SiFastapi, SiTensorflow, SiMongodb } from "react-icons/si";
+import Background from "../components/ui/Background";
+import Navbar from "../components/Navbar";
 
 
 const projectsData = [
@@ -38,27 +40,9 @@ const Projects = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen w-full relative text-white p-6 md:p-12">
-      <div
-        className="absolute inset-0 z-0"
-        style={{
-          background: "#0f172a",
-          backgroundImage: `
-            radial-gradient(circle, rgba(139,92,246,0.6) 1px, transparent 1px),
-            radial-gradient(circle, rgba(59,130,246,0.4) 1px, transparent 1px),
-            radial-gradient(circle, rgba(236,72,153,0.5) 1px, transparent 1px)
-          `,
-          backgroundSize: "20px 20px, 40px 40px, 60px 60px",
-          backgroundPosition: "0 0, 10px 10px, 30px 30px",
-        }}
-      />
-
-      {/* ✅ Foreground Content */}
-      <div className="relative z-10">
-
-        <h1 className="text-4xl font-bold mb-8 text-center">My Projects</h1>
-
-        {/* Projects Container */}
+    <Background>
+      <Navbar />
+      <div className="relative z-10 px-4 md:px-6 lg:px-8 py-4 md:py-8">
         <div className="flex flex-wrap gap-6 justify-center">
 
           {projectsData.map((project, index) => (
@@ -67,8 +51,8 @@ const Projects = () => {
               className="w-full sm:w-[48%] lg:w-[30%] p-5 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition duration-300 flex flex-col justify-between"
             >
               <div>
-                <h2 className="text-2xl font-semibold mb-2">{project.title}</h2>
-                <p className="text-gray-300 text-sm mb-4">{project.description}</p>
+                <h2 className="text-white text-2xl font-semibold mb-2">{project.title}</h2>
+                <p className="text-white/80 text-sm mb-4">{project.description}</p>
 
                 {/* Tech Stack */}
                 <div className="flex flex-wrap gap-2">
@@ -92,7 +76,7 @@ const Projects = () => {
 
         </div>
       </div>
-    </div>
+    </Background>
 
   );
 };
